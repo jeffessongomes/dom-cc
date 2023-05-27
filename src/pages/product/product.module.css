@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container img{
+    width: 150px;
+    height: 150px;
+}
+
+.formGroup{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.formGroup input{
+    text-align: center;
+    height: 40px;
+    width: 100px;
+}
+
+.formGroup button{
+    margin-top: 16px;
+    width: 100%;
+}

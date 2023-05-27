@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.buttonListProduct{
+    position: fixed;
+    background: #17a2b8;
+    width: 100%;
+
+    bottom: 0;
+
+    text-align: center;
+    padding: 25px;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.1em;
+}
