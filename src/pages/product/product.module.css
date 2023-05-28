@@ -4,6 +4,9 @@
     align-items: center;
     height: 100vh;
     flex-direction: column;
+
+    padding: 0 50px;
+    text-align: center;
 }
 
 .container img{

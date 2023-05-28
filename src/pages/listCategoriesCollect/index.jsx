@@ -6,7 +6,7 @@ import { apiAxios } from '../../services/api';
 
 import styles from './categories.module.css'
 
-function Categories(){
+function ListCategoriesCollect(){
     const [categories, setCategories] = useState([])
 
     useEffect(() => {
@@ -17,7 +17,7 @@ function Categories(){
         <ul className={styles.container}>
             {categories.map((category) => (
             <li key={category.id}>
-                <Link to={`/${category.slug}/iniciar-coleta`} className='btn btn-info'>
+                <Link to={`/${category.slug}/listar-coletas`} className='btn btn-info'>
                     {category.title}
                 </Link>
             </li>
@@ -26,4 +26,4 @@ function Categories(){
     )
 }
 
-export { Categories };
+export { ListCategoriesCollect };

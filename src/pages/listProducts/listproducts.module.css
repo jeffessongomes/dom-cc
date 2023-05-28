@@ -1,0 +1,9 @@
+.containerTable thead tr th{
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.containerTable tbody tr td{
+    font-size: 0.7rem;
+    text-align: center;
+}

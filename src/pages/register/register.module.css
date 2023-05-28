@@ -4,6 +4,7 @@
     justify-content: center;
 
     height: 100vh;
+    padding: 0px 30px;
 }
 
 .content{
@@ -12,6 +13,11 @@
     align-items: center;
 
     gap: 16px;
+}
+
+.content p{
+    color: #af062e;
+    font-weight: bold;
 }
 
 .buttonListProduct{
